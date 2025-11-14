@@ -13,3 +13,8 @@ body {
     color-scheme: dark;
   }
 }
+* {
+  animation: none !important;
+}
+
+
