@@ -36,8 +36,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <Navbar />
+        <div className="min-h-dvh"
+          style={{
+            backgroundImage: "url('/pattern-randomized.svg')",
+          }} >
 
         {children}
+        </div>
         <ScrollRestoration />
         <Scripts />
         <Footer />
